@@ -1,0 +1,168 @@
+/* NIRE GAUZAK
+       ========================================================================== */
+body {
+  margin: 0 auto; 
+  text-align:center;
+  background-image:url("../irudiak/fondoa.png");
+  padding: 0 1em 0 1em;
+  }
+#atzealdea{
+	border: solid 5px rgb(61, 61, 63);
+	border-radius:0 0 15px 15px;
+}
+#aukerak{
+	margin-bottom:40px;
+	}
+#itauna{
+	font-size:1rem;
+	font-style:italic;
+	font-weight:bold;
+	color: #610B0B; 
+	text-shadow: 0 0 0.8em #F87, 0 0 0.8em #F87;
+	margin:0;
+	padding:10px;
+}
+#galderantzunak{
+	font-size:20px;
+	height:325px;
+}
+#arraposta{
+	min-height:6em;
+	width: 100%;
+	font-size:0.8rem;
+	white-space: pre-wrap;
+	background:#fff;
+	border: solid 1px grey;
+	border-radius: 15px;
+	color:#610B0B;
+	text-align:center;
+	margin-bottom:1em;
+}
+#aukera1{
+	border-radius:10px;
+	filter: drop-shadow(5px 5px 10px #444);
+	font-size:0.8rem;
+	margin:2px;
+	line-height: 20px;
+}
+#aukera2{
+	border-radius:10px;
+	filter: drop-shadow(5px 5px 10px #444);
+	font-size:0.8rem;
+	margin:2px;
+	line-height: 20px;
+}
+#aukera3{
+	border-radius:10px;
+	filter: drop-shadow(5px 5px 10px #444);
+	font-size:0.8rem;
+	margin:2px;
+	line-height: 20px;
+}
+
+#markagailua{
+	text-align:center;
+	}
+#puntuak{
+width:100px;
+float:left;
+border-left: solid 1px grey;
+	border-right: solid 1px grey;
+	border-bottom: solid 1px grey;
+	border-radius:15px;
+background:#fff;
+filter: drop-shadow(5px 5px 10px #444);
+	font-size:0.8rem;
+	color:#610B0B;
+	margin-bottom:0px;
+}
+
+#galderak{
+width:100px;
+float:right;
+border-left: solid 1px grey;
+	border-right: solid 1px grey;
+	border-bottom: solid 1px grey;
+	border-radius:15px;
+	background:#fff;
+	filter: drop-shadow(5px 5px 10px #444);
+	font-size:0.8rem;
+	color:#610B0B;
+	margin-bottom:0px;
+}
+#tit{
+	position:relative;
+	background:#fff;
+	padding:0;
+	border-left: solid 1px grey;
+	border-right: solid 1px grey;
+	border-bottom: solid 1px grey;
+	border-radius:0 0 10px 10px;
+	color:#610B0B;
+	filter: drop-shadow(5px 5px 10px #444);
+	text-align:center;
+	margin-top:0;
+}
+#jarraitu{
+	position:relative;
+	border:0;
+	height:30px;
+	}
+#jarraitu:hover{
+	position:relative;
+	border:0;
+	background:transparent;
+	height:30px;
+	}
+	.itxi{
+		position:absolute;
+		top:0px;
+		right:0;
+		}
+/* ----------------- */
+@media print, screen and (max-width: 40em) {
+#tit{
+	border-radius:0 0 15px 15px;
+	}}
+.itxi{
+	position:absolute;
+	top:0px;
+	right:0;
+	}
+@media print, screen and (max-width: 40em) {
+.itxi{
+  width:40px;
+  top:0px;
+	right:0;
+	  }}
+/* -------------------- */
+.info{
+	position:absolute;
+	top:0px;
+	left:0;
+	}
+@media print, screen and (max-width: 40em) {
+.info{
+  width:40px;
+  top:0px;
+	left:0;
+	  }}
+/* ---------------------- */
+.segi{
+	position:absolute;
+	cursor:pointer;
+	border-radius:20%;
+	bottom:0px;
+	left:43%;
+	filter: drop-shadow(5px 5px 10px #444);
+	}
+@media print, screen and (max-width: 40em) {
+	#aukerak{
+	margin-bottom:5px;
+	}
+.segi{
+  width:60px;
+  height:30px;
+  bottom:0px;
+	left:43%;
+	  }}
